@@ -1,13 +1,9 @@
-const oSound = new Audio(
-  "https://www.soundjay.com/buttons/sounds/button-3.mp3"
-);
-const xSound = new Audio(
-  "https://www.soundjay.com/buttons/sounds/button-09.mp3"
-);
+const oSound = new Audio("./xoSound.mp3");
+const xSound = new Audio("./xoSound.mp3");
+const drawSound = new Audio("drawSound.mp3");
 const winSound = new Audio(
   "https://www.soundjay.com/human/sounds/applause-8.mp3"
 );
-const drawSound = new Audio("https://www.soundjay.com/button/beep-07.wav");
 
 let gameDiv = document.querySelector(".game");
 for (let i = 0; i < 9; i++) {
